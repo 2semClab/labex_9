@@ -1,3 +1,5 @@
+// Given an array of non-negative integers and an integer sum, find a sub-
+//array that adds to a given sum.
 #include<stdio.h>
 int main(){
 int n,sum,start=0,end=0;

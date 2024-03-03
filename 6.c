@@ -1,3 +1,4 @@
+//WAP to merge the contents of two sorted arrays and store it into a third array.
 #include<stdio.h>
 int main(){
 int n,m,f1=0,f2=0;

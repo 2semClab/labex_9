@@ -1,3 +1,4 @@
+// WAP to find out the second largest element stored in an array of integers.
 #include<stdio.h>
 int main(){
 int n,temp;
