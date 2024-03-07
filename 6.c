@@ -1,7 +1,7 @@
 //WAP to merge the contents of two sorted arrays and store it into a third array.
 #include<stdio.h>
 int main(){
-int n,m,f1=0,f2=0;
+int n,m,f1=0,f2=0,i=0;
 printf("Enter the first array size: ");
 scanf("%d",&n);
 int a[n];
@@ -30,7 +30,7 @@ for(int i=0; i<m;i++){
 printf("\n");
 
 int c[m+n];
-for(int i =0; i<n+m;i++){
+for(i; f1<n || f2<m ;i++){
 	if(a[f1]>b[f2]){
 		c[i]=b[f2];
 		f2+=1;
@@ -39,6 +39,12 @@ for(int i =0; i<n+m;i++){
 		c[i]=a[f1];
 		f1+=1;
 	}
+}
+for(int j = f1;j<n;i++){
+	c[i]=a[f1];
+}
+for(int j = f2;j<m;i++){
+	c[i]=a[f2];
 }
 printf("Merged Array : ");
 for(int i=0; i<n+m;i++){
